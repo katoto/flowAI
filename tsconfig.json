@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "checkJs": true,
+    "jsx": "react",
+    "module": "ESNext",
+    "target": "ESNext",
+    "lib": ["dom", "esnext"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "strict": false,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"], // 对应根目录下的所有模块
+    },
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.jsx", "node_modules"]
+}

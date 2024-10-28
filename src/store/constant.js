@@ -1,0 +1,6 @@
+// constant
+export const gridSpacing = 3
+export const drawerWidth = 260
+export const headerHeight = 80
+export const baseURL = window.location.origin
+export const uiBaseURL = window.location.origin

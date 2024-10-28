@@ -1,0 +1,70 @@
+.flow-config-wrapper {
+  .flow-config-name {
+    margin: 0;
+    color: "#bb5fff";
+    margin-right: 20;
+    max-width: 300px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+  }
+
+  .flow-config-sub-name {
+    margin: 0;
+    color: "#aaa";
+    font-size: 12px;
+  }
+
+  .flow-config-content-lf {
+    display: flex;
+    border-radius: 4;
+    justify-content: space-between;
+    height: calc(100vh - 200px);
+    border: 1px solid rgba(144, 202, 249, 0.46);
+  }
+}
+
+
+@keyframes arrow-scroll-animation {
+  0% {
+    transform: translateX(-6px) rotate(-45deg);
+  }
+
+  50% {
+    transform: translateX(-2px) rotate(-45deg);
+  }
+
+  100% {
+    transform: translateX(-6px) rotate(-45deg);
+  }
+}
+
+
+// 调整宽度样式
+.react-resizable {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.react-resizable-handle {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  box-sizing: border-box;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2IDYiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOiNmZmZmZmYwMCIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI2cHgiIGhlaWdodD0iNnB4Ij48ZyBvcGFjaXR5PSIwLjMwMiI+PHBhdGggZD0iTSA2IDYgTCAwIDYgTCAwIDQuMiBMIDQgNC4yIEwgNC4yIDQuMiBMIDQuMiAwIEwgNiAwIEwgNiA2IEwgNiA2IFoiIGZpbGw9IiMwMDAwMDAiLz48L2c+PC9zdmc+');
+  background-position: bottom right;
+  padding: 0 3px 3px 0;
+}
+
+.react-resizable-handle-w {
+  right: -0px;
+  animation: arrow-scroll-animation 2s infinite;
+  top: 50%;
+  margin-top: -52px;
+  cursor: ew-resize;
+  transform-origin: 50% 50%;
+}

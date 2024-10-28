@@ -1,0 +1,24 @@
+.flow-config-rf-wrapper {
+  height: 100%;
+  border-left: 1px solid rgba(144, 202, 249, 0.46);
+  display: flex;
+  flex-direction: column;
+
+  .flow-config-rf-header {
+    display: flex;
+    align-items: center;
+    height: 46px;
+    width: 400px;
+    background-color: rgb(236, 254, 255);
+    padding: 0 6px 0 12px;
+    flex-shrink: 0;
+  }
+
+  .flow-config-rf-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100;
+  }
+
+}

@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "A",
+      "label": "业务分类",
+      "draggable": false,
+      "type": "base"
+    },
+    {
+      "id": "B",
+      "label": "业务分类2",
+      "draggable": false,
+      "type": "base"
+    },
+    {
+      "id": "C",
+      "label": "业务分类3",
+      "draggable": false,
+      "type": "base"
+    },
+    {
+      "id": "D",
+      "draggable": false,
+      "type": "base"
+    },
+    {
+      "id": "H",
+      "draggable": false,
+      "type": "base"
+    },
+    {
+      "id": "E",
+      "draggable": false,
+      "type": "base"
+    },
+    {
+      "id": "F",
+      "draggable": false,
+      "type": "base"
+    },
+    {
+      "id": "G",
+      "draggable": false,
+      "type": "base"
+    }
+  ],
+  "edges": [
+    {
+      "id": "A#B#0",
+      "draggable": false,
+      "source": "A",
+      "target": "B",
+      "sourceHandle": "A#source#0",
+      "targetHandle": "B#target#0"
+    },
+    {
+      "id": "A#D#0",
+      "draggable": false,
+      "source": "A",
+      "target": "D",
+      "sourceHandle": "A#source#0",
+      "targetHandle": "D#target#0"
+    },
+    {
+      "id": "A#C#0",
+      "draggable": false,
+      "source": "A",
+      "target": "C",
+      "sourceHandle": "A#source#0",
+      "targetHandle": "C#target#0"
+    },
+    {
+      "id": "B#E#0",
+      "draggable": false,
+      "source": "B",
+      "target": "E",
+      "sourceHandle": "B#source#0",
+      "targetHandle": "E#target#0"
+    },
+    {
+      "id": "D#H#0",
+      "draggable": false,
+      "source": "D",
+      "target": "H",
+      "sourceHandle": "D#source#0",
+      "targetHandle": "H#target#0"
+    },
+    {
+      "id": "E#F#0",
+      "draggable": false,
+      "source": "E",
+      "target": "F",
+      "sourceHandle": "E#source#0",
+      "targetHandle": "F#target#0"
+    },
+    {
+      "id": "E#G#0",
+      "draggable": false,
+      "source": "E",
+      "target": "G",
+      "sourceHandle": "E#source#0",
+      "targetHandle": "G#target#0"
+    }
+  ]
+}

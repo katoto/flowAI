@@ -1,0 +1,64 @@
+.flow-config-lf {
+  height: 100%;
+  overflow-y: scroll;
+  border-right: 1px solid rgba(144, 202, 249, 0.46);
+
+  .flow-config-task-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 46px;
+    padding: 0 12px;
+    background-color: rgb(236, 254, 255);
+  }
+
+  .flow-config-task-ul {
+    padding: 0 12px;
+    margin: 8px 4px;
+    overflow-y: scroll;
+    max-height: 160px;
+
+    .flow-config-task-li {
+      border: 1px solid rgb(226 226 226);
+      list-style: none;
+      padding: 8px;
+      border-radius: 6px;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+
+      .flow-config-task-li-lf {
+        display: flex;
+        align-items: center;
+      }
+
+      &:hover {
+        background-color: rgba(6, 7, 9, 0.1);
+      }
+
+      &.active {
+        background-color: rgba(6, 7, 9, 0.04);
+
+      }
+    }
+  }
+
+  .flow-config-task-prompt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+    background-color: rgb(236, 254, 255);
+    padding: 0 6px 0 12px;
+
+    .flow-config-task-prompt-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+  }
+
+}
